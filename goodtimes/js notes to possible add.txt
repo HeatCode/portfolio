@@ -1,0 +1,5 @@
+var visitor = prompt('What is your name?');
+var message = 'Hello, ' + visitor + '. Welcome To My Treehouse Project. ';
+message += visitor;
+message += ', since you\'re here take a look around and feel free to come back anytime!'
+document.write(message);

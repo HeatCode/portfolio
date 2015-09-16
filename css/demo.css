@@ -1,0 +1,57 @@
+@import url('reset.css');
+/* General Demo Style */
+body{
+	background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    background-size: auto, cover;
+	color: #fff;
+	font-family: 'Satisfy', cursive;
+	font-size: 13px;
+}
+
+.container{
+	position:relative;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.clr{
+	clear: both;
+}
+
+.content{
+	position:relative;
+    width:580px;
+    margin: 0 auto;
+}
+
+h1{
+	margin:0px;
+	padding:20px;
+	font-size:42px;
+	color:red;
+	text-align:left;
+	font-weight:400;
+    text-align:left;
+    text-shadow: 0px 0px 10px #2f4f4f,
+    			10px 10px 3px #000;    ;
+}
+
+h1 span{
+	font-size:22px;
+	color:#000;
+	padding-top:10px;
+	/*text-shadow: 0px 0px 5px #000;*/
+
+}
+
+
+

@@ -1,0 +1,62 @@
+//objects
+var person = {
+  name: "Heather",
+  country: "US",
+  age: 31,
+  treehouseStudent: true
+  skills: ['JavaScript', 'HTML5', 'CSS']
+}
+
+
+---------------------------
+
+var person = {
+  name : 'Lady Heat',
+  country : 'USA',
+  age : 31,
+  treehouseStudent : true,
+  skills : ['JavaScript', 'HTML', 'CSS']
+};
+
+function print(message) {
+  var div = document.getElementById('output');
+  div.innerHTML = message;
+}
+
+var message = '<p>My name is '+ person.name +'!<\p>';
+message += '<p>I live in the '+ person.country +'!<\p>';
+person.name = 'Rainbow Dasher'
+message += '<p>I wish my name was '+ person.name +'!<\p>';
+message += '<p>My age is now '+ person.age +'!<\p>';
+message += '<p>I have '+ person.skills.length +' skills: <\p>';
+message += person.skills.join(' , ');
+print(message)
+
+
+-------
+
+
+var person = {
+  name : 'Sarah',
+  country : 'US',
+  age : 35,
+  treehouseStudent : true,
+  skills : ['JavaScript', 'HTML', 'CSS']
+};
+
+for (prop in person){
+  console.log(prop,':',person[prop],'!');
+
+}
+
+
+var shanghai = {
+  population: 14.35e6,
+  longitude: '31.2000 N',
+  latitude: '121.5000 E',
+  country: 'CHN'
+};
+
+for (var prop in shanghai) {
+  console.log (prop[shanghai]);
+}

@@ -1,0 +1,37 @@
+for ( var i = 0; i < temperatures.length; i += 1){
+console.log(temperatures[i])
+
+}
+
+join - example:
+ var array = array.join(' , ');
+
+concat 
+combo two or more list
+example 
+var listAll = list1.concat (list2)
+
+Result listAll is combo of list1 and then list2.  Flip the entry to reverse the order.
+
+indexOf --- search option
+
+two demensional arrays  - Spreadsheets (brackets with brackets)
+
+Example:
+
+several student grades:
+
+var grades = [
+[50, 60, 90, 100]
+[50, 60, 60, 100]
+[100, 60, 90, 100]
+[75, 100, 96, 100]
+]
+
+grades
+index	value
+0	[50, 60, 90, 100]
+1	[50, 60, 60, 100]
+2	[100, 60, 90, 100]
+3	[75, 100, 96, 100]
+

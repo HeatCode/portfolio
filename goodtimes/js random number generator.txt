@@ -1,0 +1,23 @@
+var randomnumber = Math.floor(Math.random() * 6) + 1;
+var guess = prompt('I am thinking of number between 1 and 6.  What do you think it is?');
+if (parseInt(guess) === randomnumber){
+  document.write('<p>You guessed the right number! Amazing!</p>')
+  
+}else {
+    document.write('<p>Sorry, You Guessed Wrong. It was '+randomnumber+'</p>')
+
+}
+
+
+with Boolean True/False
+var correctguess = false;
+var randomNumber = Math.floor(Math.random() * 6 ) + 1;
+var guess = prompt('I am thinking of a number between 1 and 6. What is it?');
+if (parseInt(guess) === randomNumber ) { 
+   correctguess = true;
+}
+if (correctguess) { 
+  document.write('<p>You Guessed Correct Number! You\'re Fucking Amazing</p>')
+} else {
+  document.write('<p>Sorry Kid! The number was '+randomNumber+'.</p>');
+}
